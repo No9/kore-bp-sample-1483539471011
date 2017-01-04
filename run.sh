@@ -10,7 +10,7 @@ echo "KORE_PATH: $KORE_PATH"
 cd kore-bp
 
 
-cat <<EOF > conf/build.conf
+cat << EOF > conf/build.conf
 single_binary=yes
 kore_source=$KORE_PATH
 kore_flavor=NO-TLS=1
@@ -24,8 +24,9 @@ cxxflags=-Wall -Wmissing-declarations -Wshadow
 cxxflags=-Wpointer-arith -Wcast-qual -Wsign-compare
 
 ldflags=-lcrypto
+EOF 
 
-EOF
+cat conf/build.conf
 
 kore build
 ./kore-bp -nr
