@@ -3,8 +3,8 @@
 
 KORE_PATH=$(readlink -f $PWD/../vendor/kore)
 
-echo "KORE_PATH: $KORE_PATH"
 echo "PWD: $PWD"
+echo "KORE_PATH: $KORE_PATH"
 
 cd kore-bp
 
