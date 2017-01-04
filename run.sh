@@ -11,6 +11,6 @@ cd kore-bp
 which kore 
 
 kore build
-
+sleep 20
 ./kore-bp -nr
 
