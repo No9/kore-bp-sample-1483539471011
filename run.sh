@@ -1,12 +1,13 @@
 #! /bin/sh
 
 
-KORE_PATH=$(readlink -f $PWD/../../vendor/kore)
+KORE_PATH=$(readlink -f $PWD/../vendor/kore)
 
 echo "KORE_PATH: $KORE_PATH"
+echo "PWD: $PWD"
+
 cd kore-bp
 
-echo "PWD: $PWD"
 
 cat <<EOF > conf/build.conf
 single_binary=yes
