@@ -1,9 +1,10 @@
 #! /bin/sh
 
 
-KORE_PATH=$(readlink -f $PWD/../vendor/kore)
+KORE_PATH=$(readlink -f $PWD/vendor/kore)
 
 echo "PWD: $PWD"
+ls
 echo "KORE_PATH: $KORE_PATH"
 
 cd kore-bp
