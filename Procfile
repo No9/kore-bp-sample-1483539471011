@@ -1,2 +1,2 @@
-web: echo -e `pwd`
+web: echo -e `ls`
 
