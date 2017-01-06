@@ -1,1 +1,1 @@
-web: ./kore-bp
+web: ./kore-bp/kore-bp
