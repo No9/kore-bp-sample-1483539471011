@@ -1,2 +1,2 @@
-web: echo -e `ls`
+web: ./kore-bp/kore-bp -nr
 
