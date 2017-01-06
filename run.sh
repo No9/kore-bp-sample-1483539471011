@@ -1,16 +1,10 @@
 #! /bin/sh
 
-KORE_PATH=$(readlink -f $PWD/vendor/kore)
+APP=$(./serviceinfo.sh)
 
-echo "PWD: $PWD"
-echo "KORE_PATH: $KORE_PATH"
-ls $KORE_PATH
-
-cd kore-bp
-
-which kore 
+cd $APP
 
 kore build
-sleep 20
-./kore-bp -nr
+
+./$APP -nr
 
