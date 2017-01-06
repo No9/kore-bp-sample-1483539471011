@@ -2,5 +2,5 @@
 
 APP=$(./serviceinfo.sh)
 cd $APP
-./$APP -nr
+$APP -nr
 
