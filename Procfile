@@ -1,2 +1,2 @@
-web: echo -e `ls -al kore-bp` 
+web: ./kore-bp/kore-bp -nr 
 
