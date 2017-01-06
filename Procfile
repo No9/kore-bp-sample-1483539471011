@@ -1,1 +1,1 @@
-web: ./kore-bp/kore-bp
+web: pwd
