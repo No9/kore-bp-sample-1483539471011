@@ -1,1 +1,2 @@
-web: pwd
+web: echo -e `pwd`
+
